@@ -1,0 +1,26 @@
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.banner {
+ color: white;
+  height: 100vh;
+  text-align: center;
+  background-image: url("../images/background.png");
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.btn {
+  font-family: "BrainFlower";
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.links {
+  display: inline;
+}
